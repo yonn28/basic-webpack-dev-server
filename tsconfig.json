@@ -2,6 +2,7 @@
     "compilerOptions": {
       "outDir": "./dist/",
       "noImplicitAny": true,
+      "moduleResolution": "node",
       "sourceMap": true,
       "module": "es6",
       "target": "es5",
@@ -10,4 +11,4 @@
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "**/*.spec.ts"]
-  }
+}
